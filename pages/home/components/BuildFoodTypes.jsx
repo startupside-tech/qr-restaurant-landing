@@ -52,13 +52,13 @@ const BuildFoodTypes = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-center items-center mt-8">
+           {/*  <div className="flex justify-center items-center mt-8">
                 {currentImage && (
                     <div>
                         <Image src={currentImage} width={200} height={200} alt="Selected Food" />
                     </div>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 };
