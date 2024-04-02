@@ -1,5 +1,5 @@
 import Image from "next/image"
-import FOUNDER from "./images/Founder.webp"
+import FOUNDER from "./images/founder.webp"
 
 const Founder = () => {
     return (
