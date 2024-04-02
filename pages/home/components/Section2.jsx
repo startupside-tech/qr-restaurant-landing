@@ -11,7 +11,7 @@ const Section2 = () => {
                     <button className="border border-[#ac9c68] bg-[#ac9c68] text-white rounded-lg hover:bg-transparent hover:text-[#ac9c68] transition duration-300 w-[134px] h-[43px]">Learn more</button>
                 </div>
                 <div className="w-full md:w-[400px] max-w-md">
-                    <Image src={IMG1} className="rounded-xl" width={400} height={400} />
+                    <Image src={IMG1} alt="image2" className="rounded-xl" width={400} height={400} />
                 </div>
             </div>
         </div>

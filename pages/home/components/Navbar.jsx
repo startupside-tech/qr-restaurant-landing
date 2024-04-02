@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,13 +45,13 @@ const Navbar = () => {
           </div>
           {/* Logo */}
           <div className="flex justify-center w-full">
-            <a href="/" title="Feather">
-              <img
+            <Link href="/" title="Feather">
+              <Image
                 alt="Logo"
                 src=""
                 className="block h-8 w-auto"
               />
-            </a>
+            </Link>
           </div>
           {/* User Icon */}
           <div>
@@ -163,13 +164,13 @@ const Navbar = () => {
         <div className="lg:hidden"></div>
         <div className="hidden lg:absolute lg:inset-0 lg:flex lg:items-center lg:justify-center space-x-11 p-16">
           <div className="relative z-10 shrink-0 b">
-            <a href="/" title="Feather" className="flex bg-white">
-              <img
+            <Link href="/" title="Feather" className="flex bg-white">
+              <Image
                 alt="Logo"
                 src=""
                 className="block h-8 w-auto"
               />
-            </a>
+            </Link>
           </div>
 
           <Link

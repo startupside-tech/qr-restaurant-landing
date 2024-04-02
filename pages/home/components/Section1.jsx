@@ -6,7 +6,7 @@ const Section1 = () => {
         <div className="flex flex-col items-center justify-center bg-yellow-50 py-16 px-4 sm:px-8">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-20">
                 <div className="w-full md:w-[400px] max-w-md">
-                    <Image src={IMG1} className="rounded-xl" width={400} height={400} />
+                    <Image src={IMG1} alt="image1" className="rounded-xl" width={400} height={400} />
                 </div>
                 <div className="flex flex-col justify-center w-full md:w-[400px]">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl text-[#ac9c68] font-bold leading-tight mb-4">Showcase your food with beautiful photos and videos</h1>
